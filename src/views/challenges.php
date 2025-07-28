@@ -38,7 +38,7 @@ $cryptoChallenges = [
               data-description="<?= ($challenge['title'] === 'Secret Document') ? 'We subpoenaed the internet traffic of a John Doe. Can you find out what he&apos;s been up to?' : '' ?>"
               data-file="<?= ($challenge['title'] === 'Secret Document') ? 'secret_document.pcap' : '' ?>"
               data-slug="<?= strtolower(str_replace(' ', '-', $challenge['title'])) ?>">
-              <div class="card bg-primary text-light text-center h-100 p-2" style="font-size: 0.9rem;">
+              <div class="card challenge-card bg-primary text-light text-center h-100 p-2" style="font-size: 0.9rem;">
                 <div class="card-body d-flex flex-column justify-content-between p-3">
                   <div>
                     <h6 class="card-title mb-2"><?= $challenge['title'] ?></h6>
@@ -68,7 +68,7 @@ $cryptoChallenges = [
               data-description=""
               data-file=""
               data-slug="<?= strtolower(str_replace(' ', '-', $challenge['title'])) ?>">
-              <div class="card bg-primary text-light text-center h-100 p-2" style="font-size: 0.9rem;">
+              <div class="card challenge-card bg-primary text-light text-center h-100 p-2" style="font-size: 0.9rem;">
                 <div class="card-body d-flex flex-column justify-content-between p-3">
                   <div>
                     <h6 class="card-title mb-2"><?= $challenge['title'] ?></h6>

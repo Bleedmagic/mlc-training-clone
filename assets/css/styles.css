@@ -1,0 +1,9 @@
+.challenge-card {
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.challenge-card:hover {
+  background-color: #0d6efd;
+  transform: scale(1.03);
+  cursor: pointer;
+}
