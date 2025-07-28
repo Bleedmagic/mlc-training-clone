@@ -1,6 +1,6 @@
-  <footer class="text-center py-4 mt-auto bg-dark">
+  <footer class="text-center py-4 mt-auto bg-muted">
     <div class="container">
-      <p class="mb-0">Powered by late-night caffeine and stack overflow tabs you never close.</p>
+      <p class="mb-0 text-info">Powered by late-night caffeine and stack overflow tabs you never close.</p>
     </div>
   </footer>
 
