@@ -1,4 +1,4 @@
-  <footer class="bg-dark text-center py-4 mt-auto">
+  <footer class="text-center py-4 mt-auto bg-dark">
     <div class="container">
       <p class="mb-0">Powered by late-night caffeine and stack overflow tabs you never close.</p>
     </div>
