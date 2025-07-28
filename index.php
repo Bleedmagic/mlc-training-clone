@@ -6,11 +6,10 @@
 <?php include 'src/includes/header.php'; ?>
 
 <?php
-$page = isset($_GET['page']) ? $_GET['page'] : 'home';
+$page = $_GET['page'] ?? 'home';
+$allowed = ['home', 'challenges'];
 
-$allowed_pages = ['home', 'challenges'];
-
-if (in_array($page, $allowed_pages)) {
+if (in_array($page, $allowed)) {
   include "src/views/{$page}.php";
 } else {
   include "src/views/404.php";
@@ -18,3 +17,4 @@ if (in_array($page, $allowed_pages)) {
 ?>
 
 <?php include 'src/includes/footer.php'; ?>
+
