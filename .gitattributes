@@ -2,6 +2,7 @@
 
 # CSS
 bootstrap.min.css linguist-vendored=true
+bootstrap-icons.min.css linguist-vendored=true
 
 # JS
 bootstrap.bundle.min.js linguist-vendored=true
